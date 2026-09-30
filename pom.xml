@@ -9,7 +9,7 @@
 
     <groupId>com.idem</groupId>
     <artifactId>idem-hello</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
@@ -28,7 +28,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <mainClass>com.idem.hello.Application</mainClass>
+                    <mainClass>com.idem.ipl.Application</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -43,7 +43,7 @@
                         <image>ghcr.io/tonysokolove/idem-ipl:${project.version}</image>
                     </to>
                     <container>
-                        <mainClass>com.idem.hello.Application</mainClass>
+                        <mainClass>com.idem.ipl.Application</mainClass>
                         <ports>
                             <port>8080</port>
                         </ports>
